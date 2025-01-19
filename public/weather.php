@@ -1,7 +1,21 @@
 <?php
-session_start();
-require_once("../src/database.php");
+/**
+ * Demo page used to demonstrate CSS styling.
+ *
+ * PHP version 8
+ *
+ * @category Webtech_Demo
+ * @package  Webtech_Demo
+ * @author   Rafael Alexander Muijsert <rafael@muijsert.org>
+ * @license  https://opensource.org/licenses/MIT MIT License
+ * @link     http://localhost/
+ */
+
+ require "../src/fetch_weather.php";
+ require "../src/weather_api.php";
+
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
